@@ -3346,3 +3346,8 @@ input, select, textarea {
 body {
 	background-image: linear-gradient(to bottom right, rgba(234,253,192,0),rgba(59,87,3,1));
 }
+#portalLink {
+	font-weight: 900;
+
+	/* text-shadow: 2px 2px rgb(88, 88, 88); */
+}
