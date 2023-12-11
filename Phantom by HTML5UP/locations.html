@@ -52,10 +52,12 @@
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
+							<span id="directions">
 							<h1>Location</h1>
 							<!-- <span class="image main"><img src="images/pic13.jpg" alt="" /></span> -->
-							<p>This will probably be just a simple Google Maps set into the page. We can look into additional options as well as making it look pretier and more centralized.</p>
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d825357.4397416192!2d-113.40494743372912!3d36.09220825122022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x873312ae759b4d15%3A0x1f38a9bec9912029!2sGrand%20Canyon%20National%20Park!5e0!3m2!1sen!2sus!4v1679519753197!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+							<p>You can find us at 1551 North Ferris Rd, Sumner, MI, 48801.</p>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2902.9617243934226!2d-84.82859402466707!3d43.31506067423636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882273ba0dac9071%3A0x78e6973bf4bca4f8!2s1551%20N%20Ferris%20Rd%2C%20Sumner%2C%20MI%2048889!5e0!3m2!1sen!2sus!4v1702251622269!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+							</span>
 						</div>
 					</div>
 
@@ -64,23 +66,46 @@
 					<div class="inner">
 						<section>
 							<h2>Get in touch</h2>
-							<p>For the safety and security of your information, please do not use this form to share medical, financial, or other confidential information. The <a href="portal.html"> Patient Portal </a> provides a more secure environement to discuss personal matters.</p>
-							<form method="post" action="#">
+								<p>If you are experiencing a medical emergency, please call 911 or proceed to the nearest hospital emergency department.</p>
+								<p>For the safety and security of your information, please do not use this form to share medical, financial, or other confidential information. This form should be used for general questions only, not for protected information or emergencies, as we do not always reply immediately. The <a id="portalLink" href="https://www.therapyportal.com/p/pliner/"> Patient Portal </a> provides a more secure environement to discuss personal matters.</p>
 								<div class="fields">
 									<div class="field half">
-										<input type="text" name="name" id="name" placeholder="Name" />
+										<label for="name">Name </label>
+										<input type="text" name="name" id="name"/>
 									</div>
 									<div class="field half">
-										<input type="email" name="email" id="email" placeholder="Email" />
+										<label for="email">Email</label>
+										<input type="email" name="email" id="email"/>
 									</div>
 									<div class="field">
-										<textarea name="message" id="message" placeholder="Message"></textarea>
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="5"></textarea>
 									</div>
 								</div>
 								<ul class="actions">
-									<li><input type="submit" value="Send" class="primary" /></li>
+									<li><a href="" class="button submit">Send Message</a></li>
 								</ul>
 							</form>
+							<!-- <form method="post" action="https://formsubmit.co/charlie.i.finch@gmail.com">
+								<div class="fields">
+									<div class="field half">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field half">
+										<label for="email">Email</label>
+										<input type="email" name="email" id="email" required/>
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="5"></textarea>
+									</div>
+								</div>
+								<input type="hidden" name="_next" value="https://charlie-finch.netlify.app/thank-you">
+								<ul class="actions">
+									<li><a href="" class="button submit">Send Message</a></li>
+								</ul>
+							</form> -->
 						</section>
 						<section>
 							<h2>Contact us</h2>
