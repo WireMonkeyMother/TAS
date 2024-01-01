@@ -2325,7 +2325,7 @@ input, select, textarea {
 		}
 
 		.image.left, .image.right {
-			max-width: 40%;
+			max-width: 20%;
 		}
 
 			.image.left img, .image.right img {
@@ -2334,7 +2334,7 @@ input, select, textarea {
 
 		.image.left {
 			float: left;
-			padding: 0 1.5em 1em 0;
+			padding: 0 1.5em 1em 0.5em;
 			top: 0.25em;
 		}
 
@@ -2369,6 +2369,19 @@ input, select, textarea {
 				.image.main {
 					margin: 0 0 2em 0;
 				}
+				.image.right, .image.left {
+					max-width: 30%;
+				}
+
+			}
+			@media screen and (max-width: 480px) {
+
+				.image.main {
+					margin: 0 0 2em 0;
+				}
+				.image.right, .image.left {
+					max-width: 40%;
+				}
 
 			}
 			
@@ -2395,6 +2408,7 @@ input, select, textarea {
   /* Add some shadows to create a card effect */
   .card {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	width: 50%;
   }
   
   /* Some left and right padding inside the container */
@@ -2774,27 +2788,33 @@ input, select, textarea {
 				/* Style 5 and style 3 are giving trouble with the resizing for screen size, they are too small */
 				/* Schedule/Pay */
 			.tiles article.style1 > .image:before {
-				background-color: #7bc6f1;
+				/* background-color: #7bc6f1; */
+				background-color: #599721;
 			}
 				/* Providers/Who we Are */
 			.tiles article.style2 > .image:before {
-				background-color: #7bc6f1;
+				/* background-color: #7bc6f1; */
+				background-color: #599721;
 			}
 				/* Services */
 			.tiles article.style3 > .image:before {
-				background-color: #368672;
+				/* background-color: #368672; */
+				background-color: #3b5703;
 			}
 				/* Resources */
 			.tiles article.style4 > .image:before {
-				background-color: #7bc6f1;
+				/* background-color: #7bc6f1; */
+				background-color: #599721;
 			}
 				/* Location */
 			.tiles article.style5 > .image:before {
-				background-color: #368672;
+				/* background-color: #368672; */
+				background-color: #3b5703;
 			}
 				/* Contact Us */
 			.tiles article.style6 > .image:before {
-				background-color: #368672;
+				/* background-color: #368672; */
+				background-color: #3b5703;
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
