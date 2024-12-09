@@ -20,7 +20,7 @@ canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
 	margin: 0;
-	padding: 0;
+	padding: 0.25em;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
@@ -1791,6 +1791,7 @@ input, select, textarea {
 		margin-top: -1em;
 	}
 
+
 	@media screen and (max-width: 736px) {
 
 		header p {
@@ -3413,7 +3414,7 @@ input, select, textarea {
 	#header > .inner  {
 		height: 75vh;
 		width: 100vw;
-		background-image: url("../../images/Logo for Charlie.svg");
+		background-image: url("../../images/Updated_logo.jpg");
 		background-repeat: no-repeat;
 		background-size: contain;
 		background-position: center;
