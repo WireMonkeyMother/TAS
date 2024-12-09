@@ -2837,6 +2837,7 @@ input, select, textarea {
 			body:not(.is-touch) .tiles article:hover .content {
 				max-height: 15em;
 				opacity: 1;
+				font-weight: 900;
 			}
 
 		* + .tiles {
