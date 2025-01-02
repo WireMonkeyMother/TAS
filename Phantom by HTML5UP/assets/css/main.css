@@ -7,7 +7,14 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -54,6 +61,7 @@ table {
 
 body {
 	-webkit-text-size-adjust: none;
+	text-size-adjust: none;
 }
 
 mark {
@@ -3444,26 +3452,27 @@ input, select, textarea {
 /* Wrapper */
 
 	#wrapper > * > .inner {
+		height: 100%;
 		width: 100%;
-		max-width: 68em;
+		max-width: 90em;
 		margin: 0 auto;
-		padding: 0 2.5em;
+		padding: 0 auto;
 	}
-	#header > .inner  {
+	#header  {
 		height: 100vh;
 		width: 100vw;
-		background-image: url("../../images/Updated_logo.jpg");
+		background-image: url("../../images/NewBanner.png");
 		background-repeat: no-repeat;
-		background-size:cover;
+		background-size:contain;
 		background-position: center;
-		border-radius: 5px;
+		background-color: rgba(59,87,3,1);
 	}
 	
 
 		@media screen and (max-width: 736px) {
 
 			#wrapper > * > .inner {
-				padding: 0 1.25em;
+				padding: 0em;
 			}
 
 		}
