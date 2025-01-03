@@ -3463,7 +3463,7 @@ input, select, textarea {
 		width: 100vw;
 		background-image: url("../../images/logo_mk_6.png");
 		background-repeat: no-repeat;
-		background-size:contain;
+		background-size:cover;
 		background-position: center;
 		background-color: rgba(59,87,3,1);
 	}
